@@ -1,0 +1,10 @@
+---
+# tasks file for win_ad_roles
+- name: add users to windows 
+  win_domain_user:
+    name: "{{ item.name }}"
+    firstname: "{{ item.name }}"
+    lastname: "{{ item.lastname }}"
+    email: "{{ item.email }}"
+    password: "{{ item.password }}"
+  with_items: "{{ user_info }}"

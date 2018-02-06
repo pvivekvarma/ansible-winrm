@@ -1,0 +1,7 @@
+---
+- name: Install Windows AD
+  hosts: windows
+  gather_facts: false
+  become: true
+  roles: 
+  - win_ad_install

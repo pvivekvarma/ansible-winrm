@@ -1,0 +1,5 @@
+- name: Add users
+  gather_facts: false
+  hosts: windows
+  roles:
+  - win_ad_roles 

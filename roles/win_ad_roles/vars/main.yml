@@ -1,0 +1,24 @@
+---
+# vars file for win_ad_roles
+guid: "f4d5"
+user_info:
+- name: james
+  firstname: James
+  lastname: Jockey
+  password: redhat@123
+  email: james@ad1.${guid}.example.opentlc.com
+- name: bill
+  firstname: Bill
+  lastname: Gates
+  password: redhat@123
+  email: bill@ad1.${guid}.example.opentlc.com
+- name: mickey
+  firstname: Mickey
+  lastname: Mouse
+  password: redhat@123
+  email: mickey@ad1.${guid}.example.opentlc.com
+- name: donald
+  firstname: Donald
+  lastname: Duck
+  password: redhat@123
+  email: donald@ad1.${guid}.example.opentlc.com
